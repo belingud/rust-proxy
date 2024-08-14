@@ -16,3 +16,4 @@ tracing-subscriber = { version = "0.3.16", features = ["env-filter", "json"]}
 tracing = "0.1.40"
 axum = "0.6.4"
 libc = "0.2"
+cc = "1.1"

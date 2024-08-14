@@ -1,0 +1,16 @@
+[package]
+name = "rust-proxy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "0.14.30", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+http-body-util = "0.1"
+hyper-util = { version = "0.1", features = ["full"] }
+reqwest = "0.12.5"
+http = "1.1.0"
+tower = { version = "0.4", features = ["make"] }
+tracing-subscriber = { version = "0.3.16", features = ["env-filter", "json"]}
+tracing = "0.1.40"
+axum = "0.6.4"

@@ -1,0 +1,13 @@
+[package]
+name = "hyper_version"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = "1.4.1"
+tokio = { version = "1", features = ["full"] }
+tower = { version = "0.5", features = ["make"] }
+
+[[bin]]
+name = "hyper_version"
+path = "main.rs"
